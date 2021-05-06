@@ -1,0 +1,30 @@
+#result_div {
+    display: flex;
+    flex-flow: column;
+}
+
+.input {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    width: auto;
+    margin: 10px;
+}
+
+input {
+    width: 600px;
+}
+
+label {
+    margin: 5px;
+}
+
+#calculate {
+    margin: 5px;
+    width: 80px;
+}
+
+.input_row {
+    width: auto;
+    margin: 5px;
+}

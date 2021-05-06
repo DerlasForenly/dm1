@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sets</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <fieldset class="input">
+        <legend>Sets</legend>
+        <label>Enter set items separated by spaces:</label>
+        <div class="input_row">
+            <label>A:</label>
+            <input type="text" id="a">
+        </div>
+        <div class="input_row">
+            <label>B:</label>
+            <input type="text" id="b">
+        </div>
+        <div class="input_row">
+            <label>Operation:</label>
+            <select id="operation">
+                <option>A⊂B</option>
+                <option>B⊂A</option>
+                <option>A∪B</option>
+                <option>A∩B</option>
+                <option>A\B</option>
+                <option>B\A</option>
+                <option>AΔB</option>
+            </select>
+        </div>
+        <button id="calculate">Calculate</button>
+
+        <div id="result_div">
+
+        </div>
+    </fieldset>
+    <script src="js/operations.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
