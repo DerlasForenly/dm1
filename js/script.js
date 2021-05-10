@@ -6,6 +6,9 @@ calculate.onclick = () => {
     a = delete_empty(a)
     b = delete_empty(b)
 
+    a.sort()
+    b.sort()
+
     console.log(a)
     console.log(b)
 
